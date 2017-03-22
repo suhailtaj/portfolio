@@ -1,0 +1,26 @@
+<nav class="navbar navbar-default navbar-cd">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+      <!-- <img class="img-responsive" src="./assets/images/IRVUI_Header_Icon.png" alt=""> -->
+      <img class="img-responsive" src="./assets/images/logo.png" style="width:80px;" alt="">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+      <div class="nav-main-wrapper">
+        <ul class="nav navbar-nav nav-main ">
+          <li ng-class="vm.getClass('/')"><a href="/">Home</a></li>
+          <li ng-class="vm.getClass('/About')"><a href="/About">About</a></li>
+          <li ng-class="vm.getClass('/Photography')"><a href="/Photography">My Photography</a></li>
+          <li ng-class="vm.getClass('/Contact')"><a href="/Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
